@@ -1,0 +1,6 @@
+framework module NBRouter {
+  umbrella header "NBRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}

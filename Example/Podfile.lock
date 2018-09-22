@@ -1,0 +1,16 @@
+PODS:
+  - NBRouter (0.1.0)
+
+DEPENDENCIES:
+  - NBRouter (from `../`)
+
+EXTERNAL SOURCES:
+  NBRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NBRouter: 5f6368a83810ddb1a6aa6aa4c8ed6ad446d6bd8b
+
+PODFILE CHECKSUM: b06e2e35de627713ae66bd92da4725c4a9ba0960
+
+COCOAPODS: 1.6.0.beta.1

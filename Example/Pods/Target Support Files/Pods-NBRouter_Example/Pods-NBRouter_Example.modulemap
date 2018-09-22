@@ -1,0 +1,6 @@
+framework module Pods_NBRouter_Example {
+  umbrella header "Pods-NBRouter_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

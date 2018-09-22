@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F9A80EF7AE3F99749C6F5512C2C955A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		391092DA4F23FFCAFD7BDF6A06C1A9B3 /* NBRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFF9F4E49B8B178ADC60E5589F1AABF8 /* NBRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4936CB82D3FF5C487604C44654526EB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		58C22DB8738F7BA74EA49F26CDA22446 /* Pods-NBRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 522C9CB05DB822DB3735593CD8467F34 /* Pods-NBRouter_Example-dummy.m */; };
+		6C57D4EE824C75F8DE22C26F95EB7AD2 /* NBRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D153B0E3B88FB1597D9AC1D5938439 /* NBRouter-dummy.m */; };
+		7B759853690EEB1190FFF14E6279BBF5 /* Pods-NBRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BEFAF3E96882B2A7A222ADA9E618B83 /* Pods-NBRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE5081268863892B55FD349262C7226A /* Pods-NBRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46BCE8131C3B6720563219DABD0A6B7F /* Pods-NBRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0D87EF71236D19CBC9089ABFC1D24A2 /* Pods-NBRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 095B99A7D4B970DE3C99C99ADF793CB4 /* Pods-NBRouter_Tests-dummy.m */; };
+		BB8560FCF8013F3A938537268672B925 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 905FE239F82D88565799D95B4F2BCDBF /* ReplaceMe.m */; };
+		DAFAC2E570DCB0D0D831D41373705876 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B699F6DF9100FCD1335DFEA143506A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21775275C8A45CF6F4EC3300CA6F02F6;
+			remoteInfo = NBRouter;
+		};
+		F56EEE424B975F3A54B4DEE5B40E38CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78AA3EEAA88EBB93D3A7FBA764E0B990;
+			remoteInfo = "Pods-NBRouter_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		095B99A7D4B970DE3C99C99ADF793CB4 /* Pods-NBRouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NBRouter_Tests-dummy.m"; sourceTree = "<group>"; };
+		0BEFAF3E96882B2A7A222ADA9E618B83 /* Pods-NBRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NBRouter_Example-umbrella.h"; sourceTree = "<group>"; };
+		0F5B7B5ECC0B1BFB17B8DAD4E2F67862 /* Pods-NBRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NBRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1203E8CFE3B42D160D3CDA202EB178A8 /* Pods_NBRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NBRouter_Example.framework; path = "Pods-NBRouter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF93E498D7ED1F7B2AAC135F970ACDB /* Pods-NBRouter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NBRouter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		27592959273A266004F8A1D3D8367278 /* NBRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NBRouter-Info.plist"; sourceTree = "<group>"; };
+		422AAC6CE86131DCED73782F6EE02C27 /* NBRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NBRouter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46BCE8131C3B6720563219DABD0A6B7F /* Pods-NBRouter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NBRouter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		472BEAF7E3E774AB918D8E68073F71B5 /* Pods-NBRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NBRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		522C9CB05DB822DB3735593CD8467F34 /* Pods-NBRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NBRouter_Example-dummy.m"; sourceTree = "<group>"; };
+		52BA4B722C34C7F47D4FF3D8AE49F739 /* Pods-NBRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NBRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		54DFB523DCF26BC7DEA3BEC62CCD59D0 /* Pods-NBRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NBRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59F733364165EDA56471FC2B8C08EA18 /* Pods-NBRouter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NBRouter_Example-Info.plist"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C59F787ABD2E2B9726FA84C374905D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		615C873204025F4549C31C4CFF86A2EF /* NBRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NBRouter-prefix.pch"; sourceTree = "<group>"; };
+		63D153B0E3B88FB1597D9AC1D5938439 /* NBRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NBRouter-dummy.m"; sourceTree = "<group>"; };
+		8488BC1E78E6374D1F852717DC9C2935 /* Pods-NBRouter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NBRouter_Tests.modulemap"; sourceTree = "<group>"; };
+		8DD204E915B91579065A1D4C40355D03 /* NBRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NBRouter.xcconfig; sourceTree = "<group>"; };
+		905FE239F82D88565799D95B4F2BCDBF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = NBRouter/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0F033E571EE007E2B9F2D674F288B12 /* NBRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NBRouter.modulemap; sourceTree = "<group>"; };
+		A76B0A1AEAB0A64593E599B3FFF690CD /* NBRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NBRouter.framework; path = NBRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF9F4E49B8B178ADC60E5589F1AABF8 /* NBRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NBRouter-umbrella.h"; sourceTree = "<group>"; };
+		CBFAF3FBEBB6EFB16E68137E20662EED /* Pods-NBRouter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NBRouter_Example.modulemap"; sourceTree = "<group>"; };
+		D7B96DB02E5CBF76F82176CD5022E5E0 /* Pods-NBRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NBRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E15E49D43E87B41ACEFB01F038744C86 /* Pods-NBRouter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NBRouter_Tests-Info.plist"; sourceTree = "<group>"; };
+		E2E4D845BA1BA98286B80D6382EA38E8 /* Pods-NBRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NBRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E88D5006BE7F2FAF485913EA4BEC754D /* Pods-NBRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NBRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E9A94734DADAD89C17807CD1E27AFE66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EAFFF649BB3001B785DA510E03B58E37 /* Pods_NBRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NBRouter_Tests.framework; path = "Pods-NBRouter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0D01640817C72D15699A42E5055CA8 /* Pods-NBRouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NBRouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07C800C45056F9986DE0A57D3DC8F7CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4936CB82D3FF5C487604C44654526EB3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3950FDA37C09F9675BC281B14CCC4771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9A80EF7AE3F99749C6F5512C2C955A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A33794AB340E9178EDEBA0353C808889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFAC2E570DCB0D0D831D41373705876 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0773308DF134C280D45851703ABF4E50 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0F033E571EE007E2B9F2D674F288B12 /* NBRouter.modulemap */,
+				8DD204E915B91579065A1D4C40355D03 /* NBRouter.xcconfig */,
+				63D153B0E3B88FB1597D9AC1D5938439 /* NBRouter-dummy.m */,
+				27592959273A266004F8A1D3D8367278 /* NBRouter-Info.plist */,
+				615C873204025F4549C31C4CFF86A2EF /* NBRouter-prefix.pch */,
+				AFF9F4E49B8B178ADC60E5589F1AABF8 /* NBRouter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NBRouter";
+			sourceTree = "<group>";
+		};
+		0D717E43BF612B94DA78671E07CB7C50 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C44D0081893419DCCE1FC47470A058F /* Pods-NBRouter_Example */,
+				A1C1F2C29CD707252D41EDD2B7B467B3 /* Pods-NBRouter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5C44D0081893419DCCE1FC47470A058F /* Pods-NBRouter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CBFAF3FBEBB6EFB16E68137E20662EED /* Pods-NBRouter_Example.modulemap */,
+				54DFB523DCF26BC7DEA3BEC62CCD59D0 /* Pods-NBRouter_Example-acknowledgements.markdown */,
+				52BA4B722C34C7F47D4FF3D8AE49F739 /* Pods-NBRouter_Example-acknowledgements.plist */,
+				522C9CB05DB822DB3735593CD8467F34 /* Pods-NBRouter_Example-dummy.m */,
+				1EF93E498D7ED1F7B2AAC135F970ACDB /* Pods-NBRouter_Example-frameworks.sh */,
+				59F733364165EDA56471FC2B8C08EA18 /* Pods-NBRouter_Example-Info.plist */,
+				0BEFAF3E96882B2A7A222ADA9E618B83 /* Pods-NBRouter_Example-umbrella.h */,
+				D7B96DB02E5CBF76F82176CD5022E5E0 /* Pods-NBRouter_Example.debug.xcconfig */,
+				E88D5006BE7F2FAF485913EA4BEC754D /* Pods-NBRouter_Example.release.xcconfig */,
+			);
+			name = "Pods-NBRouter_Example";
+			path = "Target Support Files/Pods-NBRouter_Example";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C99901F83E3F99478F4C75BC97401CAD /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F9E74F437D30747810F0805EC79CEA19 /* Products */,
+				0D717E43BF612B94DA78671E07CB7C50 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A1C1F2C29CD707252D41EDD2B7B467B3 /* Pods-NBRouter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8488BC1E78E6374D1F852717DC9C2935 /* Pods-NBRouter_Tests.modulemap */,
+				0F5B7B5ECC0B1BFB17B8DAD4E2F67862 /* Pods-NBRouter_Tests-acknowledgements.markdown */,
+				ED0D01640817C72D15699A42E5055CA8 /* Pods-NBRouter_Tests-acknowledgements.plist */,
+				095B99A7D4B970DE3C99C99ADF793CB4 /* Pods-NBRouter_Tests-dummy.m */,
+				E15E49D43E87B41ACEFB01F038744C86 /* Pods-NBRouter_Tests-Info.plist */,
+				46BCE8131C3B6720563219DABD0A6B7F /* Pods-NBRouter_Tests-umbrella.h */,
+				E2E4D845BA1BA98286B80D6382EA38E8 /* Pods-NBRouter_Tests.debug.xcconfig */,
+				472BEAF7E3E774AB918D8E68073F71B5 /* Pods-NBRouter_Tests.release.xcconfig */,
+			);
+			name = "Pods-NBRouter_Tests";
+			path = "Target Support Files/Pods-NBRouter_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C99901F83E3F99478F4C75BC97401CAD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE01FEA3014979DAF9FE8BE7DCA0FA2C /* NBRouter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CE01FEA3014979DAF9FE8BE7DCA0FA2C /* NBRouter */ = {
+			isa = PBXGroup;
+			children = (
+				905FE239F82D88565799D95B4F2BCDBF /* ReplaceMe.m */,
+				FD6054118F722314E1E93CCE5FA81794 /* Pod */,
+				0773308DF134C280D45851703ABF4E50 /* Support Files */,
+			);
+			name = NBRouter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F9E74F437D30747810F0805EC79CEA19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A76B0A1AEAB0A64593E599B3FFF690CD /* NBRouter.framework */,
+				1203E8CFE3B42D160D3CDA202EB178A8 /* Pods_NBRouter_Example.framework */,
+				EAFFF649BB3001B785DA510E03B58E37 /* Pods_NBRouter_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD6054118F722314E1E93CCE5FA81794 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5C59F787ABD2E2B9726FA84C374905D8 /* LICENSE */,
+				422AAC6CE86131DCED73782F6EE02C27 /* NBRouter.podspec */,
+				E9A94734DADAD89C17807CD1E27AFE66 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1613A6A38AAF1A154325A4F4252B1AB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B759853690EEB1190FFF14E6279BBF5 /* Pods-NBRouter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AECCCF21844A9FDF0D53314F2D6D12E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5081268863892B55FD349262C7226A /* Pods-NBRouter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EBEE5739837F2508E377D0B24890C77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391092DA4F23FFCAFD7BDF6A06C1A9B3 /* NBRouter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		21775275C8A45CF6F4EC3300CA6F02F6 /* NBRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37C8EBD224B01A7A3FBC0576D1BE79E1 /* Build configuration list for PBXNativeTarget "NBRouter" */;
+			buildPhases = (
+				9EBEE5739837F2508E377D0B24890C77 /* Headers */,
+				A8243FF36489215B73FE742AE72AF43A /* Sources */,
+				3950FDA37C09F9675BC281B14CCC4771 /* Frameworks */,
+				FBDEAF0D097AF8F8438D86423671255E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NBRouter;
+			productName = NBRouter;
+			productReference = A76B0A1AEAB0A64593E599B3FFF690CD /* NBRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6DB6CFB59993AE69909195D3556CBE5D /* Pods-NBRouter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 109C5F11647B7E7C1F84D17A44290FBC /* Build configuration list for PBXNativeTarget "Pods-NBRouter_Tests" */;
+			buildPhases = (
+				7AECCCF21844A9FDF0D53314F2D6D12E /* Headers */,
+				7184282E1CCC657FFA8C2CBC960F0C14 /* Sources */,
+				07C800C45056F9986DE0A57D3DC8F7CB /* Frameworks */,
+				588621DBC93D5E9A8C36D2044956551E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A7AC45CF99247951BEACFA41CF8BD15 /* PBXTargetDependency */,
+			);
+			name = "Pods-NBRouter_Tests";
+			productName = "Pods-NBRouter_Tests";
+			productReference = EAFFF649BB3001B785DA510E03B58E37 /* Pods_NBRouter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		78AA3EEAA88EBB93D3A7FBA764E0B990 /* Pods-NBRouter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B639F69A8621463C5B98F517931ECF4 /* Build configuration list for PBXNativeTarget "Pods-NBRouter_Example" */;
+			buildPhases = (
+				1613A6A38AAF1A154325A4F4252B1AB7 /* Headers */,
+				F596884B1F8D7F9A727F83D32551C5FE /* Sources */,
+				A33794AB340E9178EDEBA0353C808889 /* Frameworks */,
+				16FD0150EDF88E0E0ABC2D8F1DDA31EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45F759E679C1C42D5F6FBCC35E585CBB /* PBXTargetDependency */,
+			);
+			name = "Pods-NBRouter_Example";
+			productName = "Pods-NBRouter_Example";
+			productReference = 1203E8CFE3B42D160D3CDA202EB178A8 /* Pods_NBRouter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F9E74F437D30747810F0805EC79CEA19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21775275C8A45CF6F4EC3300CA6F02F6 /* NBRouter */,
+				78AA3EEAA88EBB93D3A7FBA764E0B990 /* Pods-NBRouter_Example */,
+				6DB6CFB59993AE69909195D3556CBE5D /* Pods-NBRouter_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16FD0150EDF88E0E0ABC2D8F1DDA31EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		588621DBC93D5E9A8C36D2044956551E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDEAF0D097AF8F8438D86423671255E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7184282E1CCC657FFA8C2CBC960F0C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D87EF71236D19CBC9089ABFC1D24A2 /* Pods-NBRouter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8243FF36489215B73FE742AE72AF43A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C57D4EE824C75F8DE22C26F95EB7AD2 /* NBRouter-dummy.m in Sources */,
+				BB8560FCF8013F3A938537268672B925 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F596884B1F8D7F9A727F83D32551C5FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C22DB8738F7BA74EA49F26CDA22446 /* Pods-NBRouter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45F759E679C1C42D5F6FBCC35E585CBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NBRouter;
+			target = 21775275C8A45CF6F4EC3300CA6F02F6 /* NBRouter */;
+			targetProxy = B699F6DF9100FCD1335DFEA143506A7F /* PBXContainerItemProxy */;
+		};
+		5A7AC45CF99247951BEACFA41CF8BD15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NBRouter_Example";
+			target = 78AA3EEAA88EBB93D3A7FBA764E0B990 /* Pods-NBRouter_Example */;
+			targetProxy = F56EEE424B975F3A54B4DEE5B40E38CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14725586FC8807DE2D46A88DB7B008E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E88D5006BE7F2FAF485913EA4BEC754D /* Pods-NBRouter_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NBRouter_Example/Pods-NBRouter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NBRouter_Example/Pods-NBRouter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		41BA8C7369ACA25F7703B0FCDB5E4C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E4D845BA1BA98286B80D6382EA38E8 /* Pods-NBRouter_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NBRouter_Tests/Pods-NBRouter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NBRouter_Tests/Pods-NBRouter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		73387AF1C53BFED59A9FF1D24891B2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DD204E915B91579065A1D4C40355D03 /* NBRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NBRouter/NBRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NBRouter/NBRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NBRouter/NBRouter.modulemap";
+				PRODUCT_MODULE_NAME = NBRouter;
+				PRODUCT_NAME = NBRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74DF0DCC5581B8BFD5A19631F1435D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 472BEAF7E3E774AB918D8E68073F71B5 /* Pods-NBRouter_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NBRouter_Tests/Pods-NBRouter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NBRouter_Tests/Pods-NBRouter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7C9CF36DB217C9202179ADAE930CBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DD204E915B91579065A1D4C40355D03 /* NBRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NBRouter/NBRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NBRouter/NBRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NBRouter/NBRouter.modulemap";
+				PRODUCT_MODULE_NAME = NBRouter;
+				PRODUCT_NAME = NBRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D9FDE281DC3C250E053CAF01889C423B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7B96DB02E5CBF76F82176CD5022E5E0 /* Pods-NBRouter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NBRouter_Example/Pods-NBRouter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NBRouter_Example/Pods-NBRouter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		109C5F11647B7E7C1F84D17A44290FBC /* Build configuration list for PBXNativeTarget "Pods-NBRouter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41BA8C7369ACA25F7703B0FCDB5E4C5B /* Debug */,
+				74DF0DCC5581B8BFD5A19631F1435D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37C8EBD224B01A7A3FBC0576D1BE79E1 /* Build configuration list for PBXNativeTarget "NBRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73387AF1C53BFED59A9FF1D24891B2D5 /* Debug */,
+				B7C9CF36DB217C9202179ADAE930CBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B639F69A8621463C5B98F517931ECF4 /* Build configuration list for PBXNativeTarget "Pods-NBRouter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9FDE281DC3C250E053CAF01889C423B /* Debug */,
+				14725586FC8807DE2D46A88DB7B008E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_NBRouter_Tests {
+  umbrella header "Pods-NBRouter_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
