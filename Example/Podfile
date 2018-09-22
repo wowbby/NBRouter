@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NBRouter_Example' do
+  pod 'NBRouter', :path => '../'
+
+  target 'NBRouter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
